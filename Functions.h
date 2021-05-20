@@ -19,7 +19,10 @@ int get_coo_for_man(int coo);                   //人間用に座標変換
 int put_time(int x);                            //盤面にサイクル数を配置
 int playout(int *inputDfg, int *nowBoard, int initCycle);                             //プレイアウト
 void print_board(int *nowBoard);                         //盤面表示
-int select_cycle(int *nowBoard, int nodeNum);
-bool check_cycle(int *nowBoard, int cycle, int nodeNum);
+int select_cycle(int *inputDfg, int *nowBoard, int nodeNum);
+int check_input(int *inputDfg, int *nowBoard, int cycle, int nodeNum);
+int playout(int *inputDfg, int *nowBoard, int initCycle);
+int org_mc(int *inputDfg, int *nowBoard);
+void copy_board(int *dst, int *src);
 
 #endif /* Functions_h */

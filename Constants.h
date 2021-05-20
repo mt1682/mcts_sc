@@ -8,9 +8,9 @@
 #ifndef Constants_h
 #define Constants_h
 
-const int INPUT_NODE_QUANTITY=4;            //入力グラフのノード数+1
-const int TIME_CONSTRAIN=5;
-const int PLAYOUT_TIME=10;
+static const int INPUT_NODE_QUANTITY=4;            //入力グラフのノード数+1
+static const int TIME_CONSTRAIN=3;
+static const int PLAYOUT_TIME=100;
 
 
 #endif /* Constants_h */
